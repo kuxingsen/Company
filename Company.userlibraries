@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Java EE 6-Java EE 6">
+    <archive path="D:/CODE/idea/Company/lib/javax.annotation.jar" />
+    <archive path="D:/CODE/idea/Company/lib/javax.ejb.jar" />
+    <archive path="D:/CODE/idea/Company/lib/javax.jms.jar" />
+    <archive path="D:/CODE/idea/Company/lib/javax.persistence.jar" />
+    <archive path="D:/CODE/idea/Company/lib/javax.transaction.jar" />
+    <archive path="D:/CODE/idea/Company/lib/javax.resource.jar" />
+    <archive path="D:/CODE/idea/Company/lib/javax.servlet.jar" />
+    <archive path="D:/CODE/idea/Company/lib/javax.servlet.jsp.jar" />
+    <archive path="D:/CODE/idea/Company/lib/javax.servlet.jsp.jstl.jar" />
+  </library>
+  <library name="Spring-4.3.18.RELEASE">
+    <archive path="D:/CODE/idea/Company/lib/spring-aspects-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-context-support-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-aop-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-expression-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-beans-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-instrument-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-jdbc-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-jms-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-messaging-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-oxm-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-orm-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-test-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-tx-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/aopalliance-1.0.jar" />
+    <archive path="D:/CODE/idea/Company/lib/commons-logging-1.2.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-context-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-core-4.3.18.RELEASE.jar" />
+  </library>
+  <library name="Spring MVC-4.3.18.RELEASE">
+    <archive path="D:/CODE/idea/Company/lib/spring-websocket-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-webmvc-4.3.18.RELEASE.jar" />
+    <archive path="D:/CODE/idea/Company/lib/spring-web-4.3.18.RELEASE.jar" />
+  </library>
+</eclipse-userlibraries>
+

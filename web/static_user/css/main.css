@@ -1,0 +1,154 @@
+/*公共样式，可以抽出来复用*/
+html {
+  font-family: 'Microsoft Yahei';
+  color: #666;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+a:hover {
+  color: #CD0000;
+}
+ul {
+  padding-left: 0;
+}
+
+/*子页面样式*/
+.container {
+  margin: 0 auto;
+  width:950px;
+}
+.content-left {
+  width: 180px;
+  float: left;
+}
+.content-left h3 {
+  padding-left: 8px;
+}
+.content-left li {
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  padding-left: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+.content-center {
+  width: 720px;
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+.content-center h3 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: .4rem;
+}
+.center-ul li {
+  margin-top: 1.2rem;
+}
+.center-footer {
+  text-align: center;
+}
+.content-left li:hover {
+  transition: all .4s;
+  border-left: 6px solid #bf9d5a;
+}
+.right-date {
+  float: right;
+}
+/* 分页组件样式*/
+.pagination {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin-top: 25px;
+}
+.pagination li {
+  display: inline;
+  text-align: center;
+}
+.pagination a {
+  float: left;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 5px 12px;
+  color: #fff;
+  margin-left: -1px;
+  border: 1px solid transparent;
+  line-height: 1.5;
+}
+.pagination a.active {
+  cursor: default;
+}
+.pagination a:active {
+  outline: none;
+}
+.modal-2 li:first-child a {
+  -moz-border-radius: 50px 0 0 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px 0 0 50px;
+}
+.modal-2 li:last-child a {
+  -moz-border-radius: 0 50px 50px 0;
+  -webkit-border-radius: 0;
+  border-radius: 0 50px 50px 0;
+}
+.modal-2 a {
+  border-color: #ddd;
+  color: #999;
+  background: #fff;
+}
+.modal-2 a:hover {
+  color: #E34E48;
+  background-color: #eee;
+}
+.modal-2 a.active, .modal-2 a:active {
+  border-color: #E34E48;
+  background: #E34E48;
+  color: #fff;
+}
+
+/*主页栏目样式*/
+.row li {
+  margin: 1rem auto;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.row li>a {
+  margin-left: .3rem;
+}
+.row {
+  margin: 0 auto;
+  width: 80%;
+  display: block;
+}
+.column3-1 {
+  display: inline-block;
+  width: 41%;
+}
+.column3-1 li:before {
+  content: "";
+  display: inline-block;
+  background: url("../img/icon-list.jpg") no-repeat center center;
+  width: 20px;
+  height: 15px;
+}
+.column3-2 {
+  width: 58%;
+  display: inline-block;
+}
+.column3-3 {
+  text-align: center;
+}
+.column-head {
+  
+}
+
+.swiper-container {
+    width: 100%;
+    height: 480px;
+}  

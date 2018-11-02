@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<output-test url="filePath://$MODULE_DIR$/web/WEB-INF/classes"/>
+	<exclude-output/>
+	<contentEntry url="filePath://$MODULE_DIR$"/>
+	<lib name="lib" scope="COMPILE">
+		<relative-module-cls project-related="filePath://$PROJECT_DIR$/web/WEB-INF/lib"/>
+		<relative-module-cls project-related="filePath://$PROJECT_DIR$/web/WEB-INF/lib"/>
+	</lib>
+	<lib name="lib" scope="COMPILE">
+		<relative-module-cls project-related="filePath://$PROJECT_DIR$/lib"/>
+		<relative-module-cls project-related="filePath://$PROJECT_DIR$/lib"/>
+	</lib>
+	<levels>
+		<level name="Spring-4.3.18.RELEASE" value="project"/>
+		<level name="Spring MVC-4.3.18.RELEASE" value="project"/>
+		<level name="Java EE 6-Java EE 6" value="project"/>
+	</levels>
+</component>
